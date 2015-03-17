@@ -14,6 +14,7 @@
 		21BCDC2D1AB8756500F78678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BCDC2C1AB8756500F78678 /* Images.xcassets */; };
 		21BCDC301AB8756500F78678 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21BCDC2E1AB8756500F78678 /* LaunchScreen.xib */; };
 		21BCDC3C1AB8756600F78678 /* ProjetTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCDC3B1AB8756600F78678 /* ProjetTestTests.m */; };
+		21BCDC461AB8760000F78678 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21BCDC451AB8760000F78678 /* Localized.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		21BCDC351AB8756500F78678 /* ProjetTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BCDC3A1AB8756500F78678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21BCDC3B1AB8756600F78678 /* ProjetTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjetTestTests.m; sourceTree = "<group>"; };
+		21BCDC451AB8760000F78678 /* Localized.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localized.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		21BCDC131AB8756500F78678 = {
 			isa = PBXGroup;
 			children = (
+				21BCDC471AB8760B00F78678 /* Ressources */,
 				21BCDC1E1AB8756500F78678 /* ProjetTest */,
 				21BCDC381AB8756500F78678 /* ProjetTestTests */,
 				21BCDC1D1AB8756500F78678 /* Products */,
@@ -119,6 +122,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		21BCDC471AB8760B00F78678 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				21BCDC451AB8760000F78678 /* Localized.strings */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +179,7 @@
 				TargetAttributes = {
 					21BCDC1B1AB8756500F78678 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 6ULEJ9RYTQ;
 					};
 					21BCDC341AB8756500F78678 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BCDC461AB8760000F78678 /* Localized.strings in Resources */,
 				21BCDC2B1AB8756500F78678 /* Main.storyboard in Resources */,
 				21BCDC301AB8756500F78678 /* LaunchScreen.xib in Resources */,
 				21BCDC2D1AB8756500F78678 /* Images.xcassets in Resources */,
